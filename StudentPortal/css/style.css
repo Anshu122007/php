@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+}
+header, footer {
+    background: #003366;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+main {
+    padding: 2em;
+}
+form {
+    margin: 2em auto;
+    width: 300px;
+    background: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+}
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="date"] {
+    width: 100%;
+    padding: 0.4em;
+    margin-top: 0.2em;
+    margin-bottom: 0.6em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+form button {
+    background: #003366;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+form button:hover {
+    background: #0055a5;
+}
+table {
+    width: 80%;
+    margin: 2em auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+}
+th, td {
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+.success {
+    color: green;
+    font-weight: bold;
+}
+.error {
+    color: red;
+    font-weight: bold;
+}
